@@ -1,0 +1,39 @@
+.header {
+  background-color: black;
+  padding-top: 21px;
+  display: flex;
+  padding-bottom: 120px;
+  justify-content: space-around;
+}
+.header__h2 {
+  position: absolute;
+  margin-top: 113px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 6px;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  color: white;
+}
+.header__list {
+  gap: 10px;
+  display: flex;
+}
+.header__button-log {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  padding: 11px;
+}
+.header__button-sign {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  padding: 11px;
+  outline: 2px solid white;
+  border-radius: 20px;
+}
